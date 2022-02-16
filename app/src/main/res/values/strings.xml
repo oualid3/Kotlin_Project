@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Kotlin_Project</string>
+    <string name="zone_1">Students</string>
+    <string name="zone_2">Shop</string>
 </resources>
