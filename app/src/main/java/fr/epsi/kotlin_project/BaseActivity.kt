@@ -10,18 +10,18 @@ import android.widget.Toast
 
 open class BaseActivity : AppCompatActivity() {
 
-//    fun showBtnBack(){
-//        val imageViewBack=findViewById<ImageView>(R.id.imageViewBack)
-//        imageViewBack.visibility=View.VISIBLE
-//        imageViewBack.setOnClickListener(View.OnClickListener {
-//            finish()
-//        })
-//    }
+    fun showBtnBack(){
+        val imageViewBack=findViewById<ImageView>(R.id.imageViewBack)
+        imageViewBack.visibility=View.VISIBLE
+        imageViewBack.setOnClickListener(View.OnClickListener {
+            finish()
+        })
+    }
 //
-//    fun setHeaderTitle(txt : String){
-//        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
-//        textViewTitle.text = txt
-//    }
+    fun setHeaderTitle(txt : String){
+        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
+        textViewTitle.text = txt
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

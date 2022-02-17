@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Kotlin_Project</string>
-    <string name="zone_1">Students</string>
-    <string name="zone_2">Shop</string>
+    <string name="zone_1">QR code</string>
+    <string name="zone_2">Remplir le formulaire manuellement</string>
 </resources>

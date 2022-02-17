@@ -7,4 +7,11 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="EditTextCreate" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
 </resources>

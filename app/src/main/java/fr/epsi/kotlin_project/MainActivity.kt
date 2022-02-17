@@ -1,5 +1,6 @@
 package fr.epsi.kotlin_project
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         val buttonZone1: Button = findViewById(R.id.buttonZone1)
         val buttonZone2: Button = findViewById(R.id.buttonZone2)
 
-//        buttonZone1.setOnClickListener(View.OnClickListener {
-//            val newIntent= Intent(application,StudentsActivity::class.java)
-//            newIntent.putExtra("title",getString(R.string.zone_1))
-//            startActivity(newIntent)
-//        })
+        buttonZone2.setOnClickListener(View.OnClickListener {
+            val newIntent= Intent(application,CreateActivity::class.java)
+            newIntent.putExtra("title",getString(R.string.zone_2))
+            startActivity(newIntent)
+        })
 //
 //        buttonZone2.setOnClickListener(View.OnClickListener {
 //            val newIntent= Intent(application,ShopActivity::class.java)
