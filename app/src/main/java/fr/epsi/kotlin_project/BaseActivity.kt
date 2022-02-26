@@ -1,5 +1,7 @@
 package fr.epsi.kotlin_project
 
+import android.content.Intent
+import android.media.Image
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
@@ -10,6 +12,7 @@ import android.widget.Toast
 
 open class BaseActivity : AppCompatActivity() {
 
+
     fun showBtnBack(){
         val imageViewBack=findViewById<ImageView>(R.id.imageViewBack)
         imageViewBack.visibility=View.VISIBLE
@@ -17,29 +20,28 @@ open class BaseActivity : AppCompatActivity() {
             finish()
         })
     }
-//
+
+    fun showToast(txt : String){
+        Toast.makeText(this,txt, Toast.LENGTH_SHORT).show()
+    }
+
+
     fun setHeaderTitle(txt : String){
         val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
         textViewTitle.text = txt
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        Log.d("Epsi","################ onCreate ##############"+javaClass.simpleName)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("Epsi","################ onResume ##############"+javaClass.simpleName)
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("Epsi","################ onPause ##############"+javaClass.simpleName)
-    }
-
-    fun showToast(txt : String){
-        Toast.makeText(this,txt, Toast.LENGTH_SHORT).show()
+    fun setLogoHeader(){
+        val logoHeader = findViewById<ImageView>(R.id.logo)
+        val textHeader = findViewById<TextView>(R.id.textViewTitle)
+        val details = findViewById<TextView>(R.id.detailsView)
+        logoHeader.visibility = View.VISIBLE
+        textHeader.visibility = View.GONE
+        details.visibility = View.VISIBLE
+        details.setOnClickListener(View.OnClickListener {
+            val newIntent = Intent(application,AccountActivity::class.java)
+            startActivity(newIntent)
+        })
     }
 
 }

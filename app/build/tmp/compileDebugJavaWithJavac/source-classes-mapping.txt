@@ -1,0 +1,20 @@
+fr/epsi/kotlin_project/BuildConfig.java
+ fr.epsi.kotlin_project.BuildConfig
+fr/epsi/kotlin_project/databinding/ActivityAccountBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityAccountBinding
+fr/epsi/kotlin_project/databinding/LayoutTabbarBinding.java
+ fr.epsi.kotlin_project.databinding.LayoutTabbarBinding
+fr/epsi/kotlin_project/databinding/FragmentTab1Binding.java
+ fr.epsi.kotlin_project.databinding.FragmentTab1Binding
+fr/epsi/kotlin_project/databinding/ActivityFragmentBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityFragmentBinding
+fr/epsi/kotlin_project/databinding/LayoutHeaderBinding.java
+ fr.epsi.kotlin_project.databinding.LayoutHeaderBinding
+fr/epsi/kotlin_project/databinding/ActivitySplashBinding.java
+ fr.epsi.kotlin_project.databinding.ActivitySplashBinding
+fr/epsi/kotlin_project/databinding/ActivityQrcodeBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityQrcodeBinding
+fr/epsi/kotlin_project/databinding/ActivityCreateBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityCreateBinding
+fr/epsi/kotlin_project/databinding/ActivityMainBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityMainBinding

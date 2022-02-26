@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_qrcode.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_header.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\layout_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fragment.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_account.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_tabbar.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\layout_tabbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tab1.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\fragment_tab1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    }
+]

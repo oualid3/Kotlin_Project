@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_account.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_adapter_offer.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_cell_offers.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_fragment.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_qrcode.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/frag_tab2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/fragment_first.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/fragment_second.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/fragment_tab1.xml" value="0.25181159420289856" />
         <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/layout_header.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/layout_tab.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/mezro/AndroidStudioProjects/Kotlin_Project/app/src/main/res/drawable/bouton.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/mezro/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_create.xml" value="0.3625" />
         <entry key="..\:/Users/mezro/AndroidStudioProjects/Kotlin_Project/app/src/main/res/layout/activity_main.xml" value="0.3625" />

@@ -34,8 +34,8 @@ class CreateActivity : BaseActivity() {
         val city = intent.getStringExtra("city")
         val editCity = findViewById<EditText>(R.id.editTextCity)
 
-        val cardRef = intent.getStringExtra("cardRef")
-        val editCardRef = findViewById<EditText>(R.id.editTextLoyaltyCard)
+        val cardRef = intent.getStringExtra("loyaltycard")
+        val editLoyaltyCard = findViewById<EditText>(R.id.editTextLoyaltyCard)
 
         val button = findViewById<Button>(R.id.buttonLogin)
 
@@ -49,7 +49,7 @@ class CreateActivity : BaseActivity() {
             writeSharedPref("address",editAddress.text.toString())
             writeSharedPref("zipcode",editZipcode.text.toString())
             writeSharedPref("city",editCity.text.toString())
-            writeSharedPref("cardRef",editCardRef.text.toString())
+            writeSharedPref("loyaltycard",editLoyaltyCard.text.toString())
             writeSharedisCreated("isCreated",true)
             startActivity(newIntent)
         })
@@ -63,7 +63,7 @@ class CreateActivity : BaseActivity() {
             editAddress.setText(address)
             editZipcode.setText(zipcode)
             editCity.setText(city)
-            editCardRef.setText(cardRef)
+            editLoyaltyCard.setText(cardRef)
         }
     }
 
