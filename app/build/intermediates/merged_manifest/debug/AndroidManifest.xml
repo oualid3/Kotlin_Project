@@ -25,17 +25,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Kotlin_Project" >
         <activity
-            android:name="fr.epsi.kotlin_project.AdapterOfferActivity"
-            android:exported="false"
-            android:label="@string/title_activity_adapter_offer"
-            android:theme="@style/Theme.Kotlin_Project.NoActionBar" />
-        <activity
-            android:name="fr.epsi.kotlin_project.FragTab2"
-            android:exported="false" />
-        <activity
-            android:name="fr.epsi.kotlin_project.FragTab1"
-            android:exported="false" />
-        <activity
             android:name="fr.epsi.kotlin_project.AccountActivity"
             android:exported="false" />
         <activity

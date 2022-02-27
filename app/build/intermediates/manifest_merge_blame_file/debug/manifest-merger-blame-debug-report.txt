@@ -24,7 +24,7 @@
 14-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:8:22-78
 15
 16    <application
-16-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:10:5-52:19
+16-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:10:5-42:19
 17        android:allowBackup="true"
 17-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,117 +43,95 @@
 26        android:theme="@style/Theme.Kotlin_Project" >
 26-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:16:9-52
 27        <activity
-27-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:17:9-21:71
-28            android:name="fr.epsi.kotlin_project.AdapterOfferActivity"
-28-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:18:13-49
-29            android:exported="false"
-29-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:19:13-37
-30            android:label="@string/title_activity_adapter_offer"
-30-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:20:13-65
-31            android:theme="@style/Theme.Kotlin_Project.NoActionBar" />
-31-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:21:13-68
-32        <activity
-32-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:22:9-24:40
-33            android:name="fr.epsi.kotlin_project.FragTab2"
-33-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:23:13-37
-34            android:exported="false" />
-34-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:24:13-37
-35        <activity
-35-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:25:9-27:40
-36            android:name="fr.epsi.kotlin_project.FragTab1"
-36-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:26:13-37
-37            android:exported="false" />
-37-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:27:13-37
-38        <activity
-38-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:28:9-30:40
-39            android:name="fr.epsi.kotlin_project.AccountActivity"
-39-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:29:13-44
-40            android:exported="false" />
-40-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:30:13-37
-41        <activity
-41-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:31:9-33:40
-42            android:name="fr.epsi.kotlin_project.QrcodeActivity"
-42-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:32:13-43
-43            android:exported="false" />
-43-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:33:13-37
-44        <activity
-44-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:34:9-36:40
-45            android:name="fr.epsi.kotlin_project.FragmentActivity"
-45-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:35:13-45
-46            android:exported="false" />
-46-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:36:13-37
-47        <activity
-47-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:37:9-39:40
-48            android:name="fr.epsi.kotlin_project.CreateActivity"
-48-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:38:13-43
-49            android:exported="false" />
-49-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:39:13-37
-50        <activity
-50-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:40:9-42:40
-51            android:name="fr.epsi.kotlin_project.MainActivity"
-51-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:41:13-41
-52            android:exported="false" />
-52-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:42:13-37
-53        <activity
-53-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:43:9-51:20
-54            android:name="fr.epsi.kotlin_project.SplashActivity"
-54-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:44:13-43
-55            android:exported="true" >
-55-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:45:13-36
-56            <intent-filter>
-56-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:46:13-50:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:47:17-69
-57-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:47:25-66
+27-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="fr.epsi.kotlin_project.AccountActivity"
+28-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:19:13-44
+29            android:exported="false" />
+29-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="fr.epsi.kotlin_project.QrcodeActivity"
+31-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:22:13-43
+32            android:exported="false" />
+32-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="fr.epsi.kotlin_project.FragmentActivity"
+34-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:25:13-45
+35            android:exported="false" />
+35-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="fr.epsi.kotlin_project.CreateActivity"
+37-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:28:13-43
+38            android:exported="false" />
+38-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:30:9-32:40
+40            android:name="fr.epsi.kotlin_project.MainActivity"
+40-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:31:13-41
+41            android:exported="false" />
+41-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:32:13-37
+42        <activity
+42-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:33:9-41:20
+43            android:name="fr.epsi.kotlin_project.SplashActivity"
+43-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:34:13-43
+44            android:exported="true" >
+44-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:35:13-36
+45            <intent-filter>
+45-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:37:17-69
+46-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:39:17-77
+48-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:49:17-77
-59-->C:\Users\Ben\AndroidStudioProjects\Kotlin_Project\app\src\main\AndroidManifest.xml:49:27-74
-60            </intent-filter>
-61        </activity>
-62
-63        <uses-library
-63-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-64            android:name="androidx.window.extensions"
-64-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-65            android:required="false" />
-65-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-66        <uses-library
-66-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-67            android:name="androidx.window.sidecar"
-67-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-68            android:required="false" />
-68-->[androidx.window:window:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-69
-70        <provider
-70-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-71            android:name="com.squareup.picasso.PicassoProvider"
-71-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
-72            android:authorities="fr.epsi.kotlin_project.com.squareup.picasso"
-72-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
-73            android:exported="false" />
-73-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
-74        <provider
-74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-75            android:name="androidx.startup.InitializationProvider"
-75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-76            android:authorities="fr.epsi.kotlin_project.androidx-startup"
-76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-77            android:exported="false" >
-77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-78            <meta-data
-78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-80                android:value="androidx.startup" />
-80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-81            <meta-data
-81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-83                android:value="androidx.startup" />
-83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-84        </provider>
-85    </application>
-86
-87</manifest>
+59        <provider
+59-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+60            android:name="com.squareup.picasso.PicassoProvider"
+60-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+61            android:authorities="fr.epsi.kotlin_project.com.squareup.picasso"
+61-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+62            android:exported="false" />
+62-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ben\.gradle\caches\transforms-3\ffc3f80a88bab4ce0c22be36c69895ce\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+65            android:authorities="fr.epsi.kotlin_project.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ben\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ben\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>

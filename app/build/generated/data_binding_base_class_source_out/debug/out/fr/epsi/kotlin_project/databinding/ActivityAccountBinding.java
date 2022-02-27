@@ -41,10 +41,14 @@ public final class ActivityAccountBinding implements ViewBinding {
   @NonNull
   public final EditText editTextZipcodeAccount;
 
+  @NonNull
+  public final EditText editTextloyaltycardAccount;
+
   private ActivityAccountBinding(@NonNull LinearLayout rootView, @NonNull Button buttonOk,
       @NonNull EditText editEmailAccount, @NonNull EditText editTextAddressAcount,
       @NonNull EditText editTextCityAccount, @NonNull EditText editTextFirstNameAccount,
-      @NonNull EditText editTextLastNameAccount, @NonNull EditText editTextZipcodeAccount) {
+      @NonNull EditText editTextLastNameAccount, @NonNull EditText editTextZipcodeAccount,
+      @NonNull EditText editTextloyaltycardAccount) {
     this.rootView = rootView;
     this.buttonOk = buttonOk;
     this.editEmailAccount = editEmailAccount;
@@ -53,6 +57,7 @@ public final class ActivityAccountBinding implements ViewBinding {
     this.editTextFirstNameAccount = editTextFirstNameAccount;
     this.editTextLastNameAccount = editTextLastNameAccount;
     this.editTextZipcodeAccount = editTextZipcodeAccount;
+    this.editTextloyaltycardAccount = editTextloyaltycardAccount;
   }
 
   @Override
@@ -124,9 +129,15 @@ public final class ActivityAccountBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.editTextloyaltycardAccount;
+      EditText editTextloyaltycardAccount = ViewBindings.findChildViewById(rootView, id);
+      if (editTextloyaltycardAccount == null) {
+        break missingId;
+      }
+
       return new ActivityAccountBinding((LinearLayout) rootView, buttonOk, editEmailAccount,
           editTextAddressAcount, editTextCityAccount, editTextFirstNameAccount,
-          editTextLastNameAccount, editTextZipcodeAccount);
+          editTextLastNameAccount, editTextZipcodeAccount, editTextloyaltycardAccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

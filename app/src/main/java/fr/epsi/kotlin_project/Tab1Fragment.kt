@@ -19,11 +19,6 @@ import com.google.zxing.oned.Code128Writer
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Tab1Framgent.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Tab1Fragment : Fragment() {
     // TODO: Rename and change types of parameters
 
@@ -47,10 +42,10 @@ class Tab1Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val editLastName = view.findViewById<TextView>(R.id.last_name_text_view)
         val editFirstName = view.findViewById<TextView>(R.id.first_name_text_view)
-        val cardRef :String = readSharedPref("cardRef")
+        val loyaltycard :String = readSharedPref("loyaltycard")
         editFirstName.text = readSharedPref("firstName")
         editLastName.text = readSharedPref("lastName")
-        displayBitmap(cardRef.toString())
+        displayBitmap(loyaltycard.toString())
     }
     private fun displayBitmap(value: String) {
         val widthPixels = resources.getDimensionPixelSize(R.dimen.width_barcode)

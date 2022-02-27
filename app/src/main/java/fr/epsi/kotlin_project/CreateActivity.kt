@@ -34,7 +34,7 @@ class CreateActivity : BaseActivity() {
         val city = intent.getStringExtra("city")
         val editCity = findViewById<EditText>(R.id.editTextCity)
 
-        val cardRef = intent.getStringExtra("loyaltycard")
+        val loyaltycard = intent.getStringExtra("loyaltycard")
         val editLoyaltyCard = findViewById<EditText>(R.id.editTextLoyaltyCard)
 
         val button = findViewById<Button>(R.id.buttonLogin)
@@ -63,7 +63,7 @@ class CreateActivity : BaseActivity() {
             editAddress.setText(address)
             editZipcode.setText(zipcode)
             editCity.setText(city)
-            editLoyaltyCard.setText(cardRef)
+            editLoyaltyCard.setText(loyaltycard)
         }
     }
 
