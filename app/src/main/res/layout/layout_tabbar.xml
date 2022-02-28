@@ -10,19 +10,19 @@
 
         <TextView
             android:id="@+id/textViewTab1"
-            android:background="@color/black"
+            android:background="@color/bleu_gris"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Carte"
+            android:text="Compte"
             android:textAlignment="center"
             android:textSize="30dp"/>
 
         <TextView
             android:id="@+id/textViewTab2"
-            android:background="@color/black"
+            android:background="@color/bleu_gris"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_weight="1"
@@ -34,7 +34,7 @@
 
         <TextView
             android:id="@+id/textViewTab3"
-            android:background="@color/black"
+            android:background="@color/bleu_gris"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_weight="1"
