@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Project">
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC0F6CRMqo2VOBr85JyQXhLjayaBnqQwIc"/>
         <activity
             android:name=".AccountActivity"
             android:exported="false" />

@@ -22,6 +22,7 @@ class FragmentActivity : BaseActivity() {
 
         val tab1=findViewById<TextView>(R.id.textViewTab1)
         val tab2=findViewById<TextView>(R.id.textViewTab2)
+        val tab3=findViewById<TextView>(R.id.textViewTab3)
 
         showBtnBack()
         setLogoHeader()
@@ -32,6 +33,10 @@ class FragmentActivity : BaseActivity() {
 
         tab2.setOnClickListener(View.OnClickListener {
             showTab2()
+        })
+
+        tab3.setOnClickListener(View.OnClickListener {
+            showTab3()
         })
 
         showTab1()
@@ -53,6 +58,15 @@ class FragmentActivity : BaseActivity() {
         fragmentTransaction.setReorderingAllowed(true)
         fragmentTransaction.addToBackStack("Tab2Fragment") // name can be null
         fragmentTransaction.replace(R.id.fragment_container, tab2Fragment, null)
+        fragmentTransaction.commit()
+    }
+
+    private fun showTab3() {
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.setReorderingAllowed(true)
+        fragmentTransaction.addToBackStack("Tab3Fragment") // name can be null
+        fragmentTransaction.replace(R.id.fragment_container, MapsActivity::class.java, null)
         fragmentTransaction.commit()
     }
 

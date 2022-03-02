@@ -1,20 +1,30 @@
-fr/epsi/kotlin_project/BuildConfig.java
- fr.epsi.kotlin_project.BuildConfig
-fr/epsi/kotlin_project/databinding/ActivityAccountBinding.java
- fr.epsi.kotlin_project.databinding.ActivityAccountBinding
+fr/epsi/kotlin_project/databinding/ActivityAdapterOfferBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityAdapterOfferBinding
+fr/epsi/kotlin_project/databinding/FragmentTab3Binding.java
+ fr.epsi.kotlin_project.databinding.FragmentTab3Binding
 fr/epsi/kotlin_project/databinding/LayoutTabbarBinding.java
  fr.epsi.kotlin_project.databinding.LayoutTabbarBinding
-fr/epsi/kotlin_project/databinding/FragmentTab1Binding.java
- fr.epsi.kotlin_project.databinding.FragmentTab1Binding
-fr/epsi/kotlin_project/databinding/ActivityFragmentBinding.java
- fr.epsi.kotlin_project.databinding.ActivityFragmentBinding
-fr/epsi/kotlin_project/databinding/LayoutHeaderBinding.java
- fr.epsi.kotlin_project.databinding.LayoutHeaderBinding
+fr/epsi/kotlin_project/databinding/OfferCellBinding.java
+ fr.epsi.kotlin_project.databinding.OfferCellBinding
 fr/epsi/kotlin_project/databinding/ActivitySplashBinding.java
  fr.epsi.kotlin_project.databinding.ActivitySplashBinding
-fr/epsi/kotlin_project/databinding/ActivityQrcodeBinding.java
- fr.epsi.kotlin_project.databinding.ActivityQrcodeBinding
 fr/epsi/kotlin_project/databinding/ActivityCreateBinding.java
  fr.epsi.kotlin_project.databinding.ActivityCreateBinding
 fr/epsi/kotlin_project/databinding/ActivityMainBinding.java
  fr.epsi.kotlin_project.databinding.ActivityMainBinding
+fr/epsi/kotlin_project/BuildConfig.java
+ fr.epsi.kotlin_project.BuildConfig
+fr/epsi/kotlin_project/databinding/ActivityAccountBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityAccountBinding
+fr/epsi/kotlin_project/databinding/FragmentTab1Binding.java
+ fr.epsi.kotlin_project.databinding.FragmentTab1Binding
+fr/epsi/kotlin_project/databinding/ActivityMapsFragmentBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityMapsFragmentBinding
+fr/epsi/kotlin_project/databinding/ActivityFragmentBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityFragmentBinding
+fr/epsi/kotlin_project/databinding/FragmentTab2Binding.java
+ fr.epsi.kotlin_project.databinding.FragmentTab2Binding
+fr/epsi/kotlin_project/databinding/LayoutHeaderBinding.java
+ fr.epsi.kotlin_project.databinding.LayoutHeaderBinding
+fr/epsi/kotlin_project/databinding/ActivityQrcodeBinding.java
+ fr.epsi.kotlin_project.databinding.ActivityQrcodeBinding

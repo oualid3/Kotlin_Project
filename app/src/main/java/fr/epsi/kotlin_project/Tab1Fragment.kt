@@ -14,6 +14,7 @@ import androidx.annotation.ColorInt
 import androidx.core.content.res.ResourcesCompat
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.oned.Code128Writer
+import org.w3c.dom.Text
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -42,9 +43,11 @@ class Tab1Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val editLastName = view.findViewById<TextView>(R.id.last_name_text_view)
         val editFirstName = view.findViewById<TextView>(R.id.first_name_text_view)
+        val editMail = view.findViewById<TextView>(R.id.email_text_view)
         val loyaltycard :String = readSharedPref("loyaltycard")
         editFirstName.text = readSharedPref("firstName")
         editLastName.text = readSharedPref("lastName")
+        editMail.text = readSharedPref("email")
         displayBitmap(loyaltycard.toString())
     }
     private fun displayBitmap(value: String) {

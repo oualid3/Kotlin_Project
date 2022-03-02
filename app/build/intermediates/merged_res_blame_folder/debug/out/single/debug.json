@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tab2.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\fragment_tab2.xml"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -12,32 +12,36 @@
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_epsi_logo.jpeg.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\epsi_logo.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_pngegg.png.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\pngegg.png"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_header.xml.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\layout_header.xml"
     },
     {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_pngegg.png.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\pngegg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_epsi_logo.jpeg.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\epsi_logo.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create.xml.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_create.xml"
     },
     {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_account.xml.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_account.xml"
-    },
-    {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_account.xml"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -56,12 +60,16 @@
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\layout_tabbar.xml"
     },
     {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_adapter_offer.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_adapter_offer.xml"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
@@ -82,6 +90,10 @@
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps_fragment.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_maps_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -106,5 +118,13 @@
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_offer_cell.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\offer_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tab3.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\fragment_tab3.xml"
     }
 ]
