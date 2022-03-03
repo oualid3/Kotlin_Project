@@ -18,10 +18,9 @@ class AccountActivity : BaseActivity() {
         val firstNameTextView = findViewById<TextView>(R.id.editTextFirstNameAccount)
         val lastNameTextView = findViewById<TextView>(R.id.editTextLastNameAccount)
         val emailTextView = findViewById<TextView>(R.id.editEmailAccount)
-        val addressTextView = findViewById<TextView>(R.id.editTextAddressAcount)
+        val addressTextView = findViewById<TextView>(R.id.editTextAddressAccount)
         val zipcodeTextVIew = findViewById<TextView>(R.id.editTextZipcodeAccount)
         val cityTextView = findViewById<TextView>(R.id.editTextCityAccount)
-        val loyaltycardTextView = findViewById<TextView>(R.id.editTextloyaltycardAccount)
         val buttonConfirm = findViewById<Button>(R.id.buttonOk)
 
         firstNameTextView.text = readSharedPref("firstName")
@@ -30,7 +29,6 @@ class AccountActivity : BaseActivity() {
         addressTextView.text = readSharedPref("address")
         zipcodeTextVIew.text = readSharedPref("zipcode")
         cityTextView.text = readSharedPref("city")
-        loyaltycardTextView.text = readSharedPref("loyaltycard")
         buttonConfirm.setOnClickListener(View.OnClickListener {
             writeSharedPref("firstName",firstNameTextView.text.toString())
             writeSharedPref("lastName",lastNameTextView.text.toString())
@@ -38,20 +36,19 @@ class AccountActivity : BaseActivity() {
             writeSharedPref("address",addressTextView.text.toString())
             writeSharedPref("zipcode",zipcodeTextVIew.text.toString())
             writeSharedPref("city",cityTextView.text.toString())
-            writeSharedPref("loyaltycard",loyaltycardTextView.text.toString())
             val newIntent = Intent(application,FragmentActivity::class.java)
             startActivity(newIntent)
         })
     }
     fun writeSharedPref(key:String,value:String){
-        val sharedPreferences: SharedPreferences = getSharedPreferences("account", Context.MODE_PRIVATE)
+        val sharedPreferences: SharedPreferences= getSharedPreferences("account",Context.MODE_PRIVATE)
         val editor =sharedPreferences.edit()
         editor.putString(key,value)
         editor.apply()
     }
 
     fun readSharedPref(key:String):String{
-        val sharedPreferences: SharedPreferences = getSharedPreferences("account", Context.MODE_PRIVATE)
+        val sharedPreferences: SharedPreferences= getSharedPreferences("account",Context.MODE_PRIVATE)
         return sharedPreferences.getString(key,"not found").toString()
     }
 }

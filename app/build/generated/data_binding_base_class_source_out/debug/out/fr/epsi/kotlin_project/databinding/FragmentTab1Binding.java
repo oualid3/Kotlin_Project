@@ -21,6 +21,9 @@ public final class FragmentTab1Binding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final TextView emailTextView;
+
+  @NonNull
   public final TextView firstNameTextView;
 
   @NonNull
@@ -32,10 +35,11 @@ public final class FragmentTab1Binding implements ViewBinding {
   @NonNull
   public final TextView textBarcodeNumber;
 
-  private FragmentTab1Binding(@NonNull FrameLayout rootView, @NonNull TextView firstNameTextView,
-      @NonNull ImageView imageBarcode, @NonNull TextView lastNameTextView,
-      @NonNull TextView textBarcodeNumber) {
+  private FragmentTab1Binding(@NonNull FrameLayout rootView, @NonNull TextView emailTextView,
+      @NonNull TextView firstNameTextView, @NonNull ImageView imageBarcode,
+      @NonNull TextView lastNameTextView, @NonNull TextView textBarcodeNumber) {
     this.rootView = rootView;
+    this.emailTextView = emailTextView;
     this.firstNameTextView = firstNameTextView;
     this.imageBarcode = imageBarcode;
     this.lastNameTextView = lastNameTextView;
@@ -69,6 +73,12 @@ public final class FragmentTab1Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.email_text_view;
+      TextView emailTextView = ViewBindings.findChildViewById(rootView, id);
+      if (emailTextView == null) {
+        break missingId;
+      }
+
       id = R.id.first_name_text_view;
       TextView firstNameTextView = ViewBindings.findChildViewById(rootView, id);
       if (firstNameTextView == null) {
@@ -93,8 +103,8 @@ public final class FragmentTab1Binding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentTab1Binding((FrameLayout) rootView, firstNameTextView, imageBarcode,
-          lastNameTextView, textBarcodeNumber);
+      return new FragmentTab1Binding((FrameLayout) rootView, emailTextView, firstNameTextView,
+          imageBarcode, lastNameTextView, textBarcodeNumber);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

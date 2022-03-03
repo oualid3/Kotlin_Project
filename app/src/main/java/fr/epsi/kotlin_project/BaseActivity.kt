@@ -34,7 +34,7 @@ open class BaseActivity : AppCompatActivity() {
     fun setLogoHeader(){
         val logoHeader = findViewById<ImageView>(R.id.logo)
         val textHeader = findViewById<TextView>(R.id.textViewTitle)
-        val details = findViewById<TextView>(R.id.detailsView)
+        val details = findViewById<ImageView>(R.id.detail)
         logoHeader.visibility = View.VISIBLE
         textHeader.visibility = View.GONE
         details.visibility = View.VISIBLE
