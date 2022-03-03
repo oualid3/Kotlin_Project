@@ -14,10 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Project">
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC0F6CRMqo2VOBr85JyQXhLjayaBnqQwIc"/>
+            android:value="AIzaSyC0F6CRMqo2VOBr85JyQXhLjayaBnqQwIc" />
+
         <activity
             android:name=".AccountActivity"
             android:exported="false" />

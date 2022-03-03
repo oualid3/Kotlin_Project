@@ -8,16 +8,16 @@
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\drawable\\logo_account.jpg"
     },
     {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -126,6 +126,10 @@
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_offer_cell.xml.flat",
         "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\offer_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_store.xml.flat",
+        "source": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\src\\main\\res\\layout\\activity_store.xml"
     },
     {
         "merged": "C:\\Users\\Ben\\AndroidStudioProjects\\Kotlin_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tab3.xml.flat",

@@ -26,15 +26,6 @@
             android:layout_gravity="center"
             android:padding="6dp"
             tools:text="Nom"/>
-
-        <TextView
-            android:id="@+id/email_text_view"
-            android:textSize="25sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="6dp"
-            tools:text="Email"/>
     </LinearLayout>
 
     <ImageView

@@ -43,11 +43,9 @@ class Tab1Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val editLastName = view.findViewById<TextView>(R.id.last_name_text_view)
         val editFirstName = view.findViewById<TextView>(R.id.first_name_text_view)
-        val editMail = view.findViewById<TextView>(R.id.email_text_view)
         val loyaltycard :String = readSharedPref("loyaltycard")
         editFirstName.text = readSharedPref("firstName")
         editLastName.text = readSharedPref("lastName")
-        editMail.text = readSharedPref("email")
         displayBitmap(loyaltycard.toString())
     }
     private fun displayBitmap(value: String) {

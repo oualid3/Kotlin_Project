@@ -2988,6 +2988,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameStore
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -3026,6 +3027,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id pictureStore
 id pin
 id position
 id postLayout
@@ -3286,6 +3288,7 @@ layout activity_main
 layout activity_maps_fragment
 layout activity_qrcode
 layout activity_splash
+layout activity_store
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

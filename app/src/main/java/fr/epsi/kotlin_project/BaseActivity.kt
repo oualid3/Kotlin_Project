@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import com.google.android.gms.maps.GoogleMap
 
 open class BaseActivity : AppCompatActivity() {
 
@@ -42,6 +43,12 @@ open class BaseActivity : AppCompatActivity() {
             val newIntent = Intent(application,AccountActivity::class.java)
             startActivity(newIntent)
         })
+    }
+
+    fun startActivity(java: Class<StoreActivity>) {
+        val newIntent = Intent(application,StoreActivity::class.java)
+        startActivity(newIntent)
+
     }
 
 }

@@ -37,6 +37,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Kotlin_Project" >
+        <activity
+            android:name="fr.epsi.kotlin_project.StoreActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC0F6CRMqo2VOBr85JyQXhLjayaBnqQwIc" />

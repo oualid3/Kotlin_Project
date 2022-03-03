@@ -151,8 +151,9 @@ class MapsActivity : Fragment() {
 
         googleMap.setOnMarkerClickListener(object : GoogleMap.OnMarkerClickListener {
             override fun onMarkerClick(p0: Marker): Boolean {
-                (activity as BaseActivity).showToast("Marker"+p0.title.toString())
-                return false
+
+                (activity as BaseActivity).startActivity(StoreActivity::class.java)
+                return true
             }
         })
         this.googleMap=googleMap
