@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AccountActivity"
-    android:orientation="horizontal">
+    android:layout_height="match_parent">
 
     <include
         layout="@layout/layout_header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Compte"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,87 +21,50 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
+            android:orientation="vertical" >
             <EditText
+                style="@style/Edit"
                 android:id="@+id/editTextFirstNameAccount"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Prénom"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Prénom" />
             <EditText
+                style="@style/Edit"
                 android:id="@+id/editTextLastNameAccount"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Nom"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Nom" />
             <EditText
+                style="@style/Edit"
                 android:id="@+id/editEmailAccount"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:hint="Email"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Email" />
             <EditText
-                android:id="@+id/editTextAddressAcount"
+                style="@style/Edit"
+                android:id="@+id/editTextAddressAccount"
                 android:ems="10"
                 android:inputType="textPostalAddress"
-                android:hint="Adresse"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Adresse" />
             <EditText
+                style="@style/Edit"
                 android:id="@+id/editTextZipcodeAccount"
                 android:ems="10"
                 android:inputType="number"
-                android:hint="Code Postal"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Code Postal" />
             <EditText
+                style="@style/Edit"
                 android:id="@+id/editTextCityAccount"
                 android:ems="10"
                 android:inputType="none"
-                android:hint="Ville"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
-
-            <EditText
-                android:id="@+id/editTextloyaltycardAccount"
-                android:ems="10"
-                android:inputType="none"
-                android:hint="Carte"
-                android:layout_height="200dp"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="12sp"
-                android:layout_marginTop="50dp"/>
+                android:hint="Ville" />
 
             <Button
                 android:id="@+id/buttonOk"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
-                android:text="Save informations"/>
-
+                android:text="J'enregistre les modifications"/>
         </LinearLayout>
     </ScrollView>
 

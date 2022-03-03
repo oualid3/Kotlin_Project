@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,10 +22,13 @@ public final class LayoutHeaderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView detailsView;
+  public final ImageView detail;
 
   @NonNull
   public final ImageView imageViewBack;
+
+  @NonNull
+  public final RelativeLayout layoutHeader;
 
   @NonNull
   public final ImageView logo;
@@ -32,11 +36,13 @@ public final class LayoutHeaderBinding implements ViewBinding {
   @NonNull
   public final TextView textViewTitle;
 
-  private LayoutHeaderBinding(@NonNull LinearLayout rootView, @NonNull TextView detailsView,
-      @NonNull ImageView imageViewBack, @NonNull ImageView logo, @NonNull TextView textViewTitle) {
+  private LayoutHeaderBinding(@NonNull LinearLayout rootView, @NonNull ImageView detail,
+      @NonNull ImageView imageViewBack, @NonNull RelativeLayout layoutHeader,
+      @NonNull ImageView logo, @NonNull TextView textViewTitle) {
     this.rootView = rootView;
-    this.detailsView = detailsView;
+    this.detail = detail;
     this.imageViewBack = imageViewBack;
+    this.layoutHeader = layoutHeader;
     this.logo = logo;
     this.textViewTitle = textViewTitle;
   }
@@ -68,15 +74,21 @@ public final class LayoutHeaderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.detailsView;
-      TextView detailsView = ViewBindings.findChildViewById(rootView, id);
-      if (detailsView == null) {
+      id = R.id.detail;
+      ImageView detail = ViewBindings.findChildViewById(rootView, id);
+      if (detail == null) {
         break missingId;
       }
 
       id = R.id.imageViewBack;
       ImageView imageViewBack = ViewBindings.findChildViewById(rootView, id);
       if (imageViewBack == null) {
+        break missingId;
+      }
+
+      id = R.id.layoutHeader;
+      RelativeLayout layoutHeader = ViewBindings.findChildViewById(rootView, id);
+      if (layoutHeader == null) {
         break missingId;
       }
 
@@ -92,8 +104,8 @@ public final class LayoutHeaderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LayoutHeaderBinding((LinearLayout) rootView, detailsView, imageViewBack, logo,
-          textViewTitle);
+      return new LayoutHeaderBinding((LinearLayout) rootView, detail, imageViewBack, layoutHeader,
+          logo, textViewTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

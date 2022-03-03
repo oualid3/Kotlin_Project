@@ -27,7 +27,7 @@ public final class ActivityAccountBinding implements ViewBinding {
   public final EditText editEmailAccount;
 
   @NonNull
-  public final EditText editTextAddressAcount;
+  public final EditText editTextAddressAccount;
 
   @NonNull
   public final EditText editTextCityAccount;
@@ -41,23 +41,18 @@ public final class ActivityAccountBinding implements ViewBinding {
   @NonNull
   public final EditText editTextZipcodeAccount;
 
-  @NonNull
-  public final EditText editTextloyaltycardAccount;
-
   private ActivityAccountBinding(@NonNull LinearLayout rootView, @NonNull Button buttonOk,
-      @NonNull EditText editEmailAccount, @NonNull EditText editTextAddressAcount,
+      @NonNull EditText editEmailAccount, @NonNull EditText editTextAddressAccount,
       @NonNull EditText editTextCityAccount, @NonNull EditText editTextFirstNameAccount,
-      @NonNull EditText editTextLastNameAccount, @NonNull EditText editTextZipcodeAccount,
-      @NonNull EditText editTextloyaltycardAccount) {
+      @NonNull EditText editTextLastNameAccount, @NonNull EditText editTextZipcodeAccount) {
     this.rootView = rootView;
     this.buttonOk = buttonOk;
     this.editEmailAccount = editEmailAccount;
-    this.editTextAddressAcount = editTextAddressAcount;
+    this.editTextAddressAccount = editTextAddressAccount;
     this.editTextCityAccount = editTextCityAccount;
     this.editTextFirstNameAccount = editTextFirstNameAccount;
     this.editTextLastNameAccount = editTextLastNameAccount;
     this.editTextZipcodeAccount = editTextZipcodeAccount;
-    this.editTextloyaltycardAccount = editTextloyaltycardAccount;
   }
 
   @Override
@@ -99,9 +94,9 @@ public final class ActivityAccountBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextAddressAcount;
-      EditText editTextAddressAcount = ViewBindings.findChildViewById(rootView, id);
-      if (editTextAddressAcount == null) {
+      id = R.id.editTextAddressAccount;
+      EditText editTextAddressAccount = ViewBindings.findChildViewById(rootView, id);
+      if (editTextAddressAccount == null) {
         break missingId;
       }
 
@@ -129,15 +124,9 @@ public final class ActivityAccountBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextloyaltycardAccount;
-      EditText editTextloyaltycardAccount = ViewBindings.findChildViewById(rootView, id);
-      if (editTextloyaltycardAccount == null) {
-        break missingId;
-      }
-
       return new ActivityAccountBinding((LinearLayout) rootView, buttonOk, editEmailAccount,
-          editTextAddressAcount, editTextCityAccount, editTextFirstNameAccount,
-          editTextLastNameAccount, editTextZipcodeAccount, editTextloyaltycardAccount);
+          editTextAddressAccount, editTextCityAccount, editTextFirstNameAccount,
+          editTextLastNameAccount, editTextZipcodeAccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

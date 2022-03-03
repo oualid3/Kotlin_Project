@@ -42,12 +42,6 @@
             android:value="AIzaSyC0F6CRMqo2VOBr85JyQXhLjayaBnqQwIc" />
 
         <activity
-            android:name="fr.epsi.kotlin_project.AdapterOffer"
-            android:exported="false" />
-        <activity
-            android:name="fr.epsi.kotlin_project.Offer"
-            android:exported="false" />
-        <activity
             android:name="fr.epsi.kotlin_project.AccountActivity"
             android:exported="false" />
         <activity
